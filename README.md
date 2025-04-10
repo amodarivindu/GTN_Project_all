@@ -29,4 +29,6 @@ As companies adopt cloud-native technologies and microservices, they face greate
 
 Unlike outdated methods where security was an afterthought, DevSecOps implements protective measures from the very beginning. Automated security scans, dependency reviews, and compliance checks become integral parts of the development workflow. This proactive approach identifies and resolves potential threats during the coding phase, preventing security issues from ever reaching live environments.
 
+Beacuse of those requirements and dependancies DevSecOps role become as the essential and trending job role. 
+
 
