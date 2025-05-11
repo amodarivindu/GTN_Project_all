@@ -27,9 +27,5 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Upload test results (optional)
-        if: always()
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-results
-          path: ./test-results # Update to your actual test result directory
+      - name: run a one-line single script
+        run: echo hello, world
