@@ -23,7 +23,7 @@ jobs:
           
       - name: Print current working directory
         run: |
-          pwd,
+          pwd
           ls -la
 
       
