@@ -22,7 +22,10 @@ jobs:
           node-version: '18' # Change as needed
           
       - name: Print current working directory
-        run: pwd
+        run: |
+          pwd,
+          ls -la
+
       
       - name: List files in the current directory
         run: ls -la
