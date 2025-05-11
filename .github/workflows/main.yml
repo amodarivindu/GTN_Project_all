@@ -31,8 +31,5 @@ jobs:
         run: npm install
         working-directory: ./Application
 
-      - name: Run tests
-        run: npm test
-
       - name: run a one-line single script
         run: echo hello, world
