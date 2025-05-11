@@ -23,6 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./GTN_Project_all/Application
 
       - name: Run tests
         run: npm test
